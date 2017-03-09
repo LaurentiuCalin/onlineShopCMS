@@ -1,0 +1,124 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #F5F5F5;
+}
+.navbar-default{
+	font-family: 'Kanit', sans-serif;
+	font-weight: 200;
+	margin-bottom: 0;
+	background: none;
+	border-bottom: none;
+}
+.nav.navbar-nav.navbar-right li a {
+	color: white;
+	margin: 10px 10px;
+	padding: 10px 20px;
+}
+.btn{
+	transition: all 0.3s ease 0s;
+}
+#loginBtn{
+	border:none;
+	margin-top: 20px;
+	background-color:rgba(92, 184, 92, 0.7);
+}
+#loginBtn:hover{
+	background-color:rgba(92, 184, 92, 1);
+}
+#cartBtn{
+	border:none;
+	margin-top: 20px;
+	background-color: rgba(25,118,210,0.7);
+}
+#cartBtn:hover{
+	background-color: rgba(25,118,210,1);
+}
+#registerBtn{
+	background-color: rgb(102,187,106);
+}
+#registerBtn:hover{
+	background-color: rgb(76, 175, 80);
+	border-color: rgb(76, 175, 80);
+}
+.jumbotron{
+	background: transparent;
+}
+.header{
+	height: 75vh;
+	font-family: 'Kanit', sans-serif;
+	background: 
+	linear-gradient(
+		rgba(0, 0, 0, 0.7), 
+		rgba(0, 0, 0, 0.7)
+		),
+	url(images/header.jpg);
+	background-size: cover;
+	margin-bottom: 10vh;
+	margin-top: 0;
+	color: white;
+}
+#pageTitle{
+	font-weight: 200;
+}
+.btn-primary-outline{
+	background-color: transparent;
+	border-color: #ccc;
+}
+#failedLoginAlert{
+	display: none;
+}
+#failedRegisterAlert{
+	display: none;
+}
+#failedAddProductAlert{
+	display: none;
+}
+#failedEditProductAlert{
+	display: none;
+}
+#failedSendEmailAlert{
+	display: none;
+}
+#failedEditUserAlert{
+	display: none;
+}
+
+.verticalAlignModal{
+	margin-top: 10%;
+}
+#productAdminImg{
+	width: 100px;
+	height: 75px;
+}
+#map {
+	height: 300px;
+}
+.footer-style{
+	color: white;
+	padding: 0 12%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.footer-style a:link{
+	color: white;
+}
+.footer-style .modal{
+	color:black;
+}
+.thumbnail img{
+	height: 200px;
+}
+#sendEmailBtn{
+	cursor: pointer;
+}
+.singleProduct:nth-child(3n+1) {
+	clear: left;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #ffffff;
+}
+.table-user-settings{
+	margin-bottom: 150px;
+}

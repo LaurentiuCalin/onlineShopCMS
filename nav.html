@@ -1,0 +1,117 @@
+ <body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+     <!-- Brand and toggle get grouped for better mobile display -->
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       <span class="sr-only">Toggle navigation</span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+     </button>
+   </div>
+
+   <!-- Collect the nav links, forms, and other content for toggling -->
+   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right" id="navigation">
+
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+
+<!-- Login Modal -->
+
+<div class="modal fade verticalAlignModal" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel">
+  <div class="modal-dialog" role="document">
+   <div class="modal-content">
+    <div class="modal-header">
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+     <h4 class="modal-title" id="loginModalLabel">Login</h4>
+   </div>
+   <div class="modal-body">
+     <form>
+      <h3>Username</h3>
+      <input type="text" name="username" class="form-control" id="inputUsername">
+      <h3>Password</h3>
+      <input type="password" name="password" class="form-control" id="inputPassword">
+    </form>
+    <div id="failedLoginAlert">
+      <hr/>
+      <div class="alert alert-danger" role="alert">
+        Incorrect username or password
+      </div>
+    </div> 
+  </div>
+  <div class="modal-footer">
+   <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+   <button type="button" class="btn btn-primary" id="loginBtnModal">Login</button>
+ </div>
+</div>
+</div>
+</div>
+
+<!-- Register Modal -->
+
+<div class="modal fade verticalAlignModal" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="registerModalLabel">Register</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <h3>Username</h3>
+          <input type="text" name="username" class="form-control" id="inputRegisterUsername" required>
+          <h3>Password</h3>
+          <input type="password" name="password" class="form-control" id="inputRegisterPassword" required>
+          <h3>Email</h3>
+          <input type="email" name="email" class="form-control" id="inputRegisterEmail" required>
+        </form>
+        <div id="failedRegisterAlert">
+          <hr/>
+          <div class="alert alert-danger" role="alert"></div>
+        </div> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" id="registerBtnModal">Register</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cart Modal -->
+
+<div class="modal fade verticalAlignModal" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="cartModalLabel">Your cart</h4>
+      </div>
+      <div class="modal-body">
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary disabled" id="cartBtnModal">Go to Checkout</button>
+      </div>
+    </div>
+  </div>
+</div>

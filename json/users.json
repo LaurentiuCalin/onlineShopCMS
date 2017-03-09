@@ -1,0 +1,29 @@
+[
+    {
+        "id": "58284d545c189",
+        "type": 1,
+        "isVerified": 1,
+        "key": "a",
+        "username": "a",
+        "password": "a",
+        "email": "calin@1.com"
+    },
+    {
+        "id": "583c81b8828ab",
+        "type": 0,
+        "isVerified": 0,
+        "key": "b2aa79fe043bc5fe8879fe11c878dea1",
+        "username": "john",
+        "password": "1234",
+        "email": "abc@a.com"
+    },
+    {
+        "id": "583d94f0c275c",
+        "type": 1,
+        "isVerified": 0,
+        "key": "a5348bc7791428658215812c8f7acc3c",
+        "username": "abcd",
+        "password": "1234",
+        "email": "a@a.cok"
+    }
+]

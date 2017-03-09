@@ -1,0 +1,66 @@
+[
+    {
+        "id": "582897ee72293",
+        "title": "Leather boots",
+        "price": "199",
+        "description": "Curabitur nisi lacus, porta eu feugiat ut, cursus et lorem. Ut ultrices bibendum sodales. Mauris augue massa, iaculis ut volutpat eget, placerat nec nulla. Morbi nec lobortis nulla.",
+        "type": "sweater",
+        "image": "http:\/\/localhost:8012\/WebDevExam\/images\/thumbnail3.jpg"
+    },
+    {
+        "id": "5829997e1237ec",
+        "title": "crayons ",
+        "price": "19",
+        "description": "Vestibulum malesuada quis lacus sit amet varius. Curabitur dapibus dui dui, non fringilla dui viverra sit amet. ",
+        "type": "sweater",
+        "image": "http:\/\/localhost:8012\/WebDevExam\/images\/thumbnail4.jpg"
+    },
+    {
+        "id": "582897ee72453",
+        "title": "guitar",
+        "price": "123214",
+        "description": "Cras dictum, sem a egestas ornare, nisl nunc mollis arcu, non maximus sapien est ut erat.",
+        "type": "tshirt",
+        "image": "http:\/\/localhost:8012\/WebDevExam\/images\/thumbnail6.jpg"
+    },
+    {
+        "id": "432897e1237ec",
+        "title": "Laptop",
+        "price": "123421",
+        "description": "Ut at quam et dui sagittis facilisis. Etiam porttitor tellus efficitur porttitor tincidunt. Morbi at posuere leo, et ultricies nisl. Nam maximus tortor erat, interdum varius felis gravida sit amet.",
+        "type": "sweater",
+        "image": "http:\/\/localhost:8012\/WebDevExam\/images\/thumbnail7.jpg"
+    },
+    {
+        "id": "582897e788380d",
+        "title": "parfume",
+        "price": "299",
+        "description": "onec tempor elit et arcu vestibulum pretium. Proin tempus mollis diam eu porttitor. ",
+        "type": "tshirt",
+        "image": "http:\/\/localhost:8012\/WebDevExam\/images\/thumbnail8.jpg"
+    },
+    {
+        "id": "58797ee72293",
+        "title": "present box",
+        "price": "49",
+        "description": "Vestibulum convallis egestas felis non imperdiet. Aliquam dapibus ligula tortor, et finibus diam dapibus eget. Phasellus bibendum eget felis at dictum.",
+        "type": "tshirt",
+        "image": "http:\/\/localhost:8012\/WebDevExam\/images\/thumbnail9.jpg"
+    },
+    {
+        "id": "583069d97b958",
+        "title": "camera",
+        "price": "800",
+        "description": " Nulla accumsan tellus vel consectetur posuere. Nulla consequat urna nec ipsum dictum rutrum. Quisque eros libero, dictum a sapien sed, hendrerit sodales lacus.",
+        "type": "pullover",
+        "image": "http:\/\/www.designskilz.com\/wp-content\/uploads\/2014\/10\/Free-Stock-Photography-640x300.jpg?c1f258"
+    },
+    {
+        "id": "583d988b724a2",
+        "title": "test",
+        "price": "123",
+        "description": "100",
+        "type": "pullover",
+        "image": "http:\/\/rensink.org\/wp-content\/themes\/qaengine16\/img\/default-thumbnail.jpg"
+    }
+]
