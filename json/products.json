@@ -16,14 +16,6 @@
         "image": "http:\/\/localhost:8012\/WebDevExam\/images\/thumbnail4.jpg"
     },
     {
-        "id": "582897ee72453",
-        "title": "guitar",
-        "price": "123214",
-        "description": "Cras dictum, sem a egestas ornare, nisl nunc mollis arcu, non maximus sapien est ut erat.",
-        "type": "tshirt",
-        "image": "http:\/\/localhost:8012\/WebDevExam\/images\/thumbnail6.jpg"
-    },
-    {
         "id": "432897e1237ec",
         "title": "Laptop",
         "price": "123421",

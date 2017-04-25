@@ -25,5 +25,14 @@
         "username": "abcd",
         "password": "1234",
         "email": "a@a.cok"
+    },
+    {
+        "id": "58e4b5d519831",
+        "type": 0,
+        "isVerified": 0,
+        "key": "2a70446acfc9d156954c3df2479bebfa",
+        "username": "calin",
+        "password": "dada",
+        "email": "a@a.com"
     }
 ]
